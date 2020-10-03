@@ -26,6 +26,8 @@ services:
       - mysql:mysql
     env_file:
       - env.yourls
+    volumes:
+      - ./volumes/user:/opt/yourls/user:rw
     ports:
       - 80:80
     depends_on:

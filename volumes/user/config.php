@@ -91,6 +91,6 @@ $yourls_reserved_URL = array(
 
 /*
  ** Personal settings would go after here.
- */
+*/
 
 $domainlimit_list = array( 'andaluh.es' );
